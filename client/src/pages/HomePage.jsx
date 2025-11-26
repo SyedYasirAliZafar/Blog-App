@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import MainCategories from '../components/MainCategories';
 import FeaturedPosts from '../components/FeaturedPosts';
 
+
 function HomePage() {
   return (
     <div className="mt-4 px-4 md:px-16 flex flex-col gap-8"> {/* Reduced mt-8 → mt-4, gap-12 → gap-8 */}
