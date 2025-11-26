@@ -9,7 +9,7 @@ function FeaturedPosts() {
       <div className='w-full lg:w-1/2 flex flex-col gap-4 mb-10'>
         {/* image */}
         <div className='rounded-3xl overflow-hidden'>
-          <Image src="featured1.jpeg" className=" w-full h-full object-cover"/>
+          <Image src="featured1.jpeg" className=" w-full h-full object-cover w-'895'"/>
         </div>
         {/* details */}
         <div className='flex items-center gap-4'>

@@ -11,7 +11,13 @@ const Image = ({ src, className, w, h, alt }) => {
       alt={alt}
       width={w}
       height={h}
-      className={className}   // ← YOU MUST ADD THIS
+      className={className}  
+      transformation={[
+        {
+          width: w,
+          height: h
+        }
+      ]}
     />
   )
 }
